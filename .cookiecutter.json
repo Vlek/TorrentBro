@@ -1,0 +1,12 @@
+{
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Derek McCammond",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "derek@mccammond.org",
+  "friendly_name": "Torrentbro",
+  "github_user": "vlek",
+  "license": "GPL-3.0",
+  "package_name": "TorrentBro",
+  "project_name": "TorrentBro",
+  "version": "0.0.0"
+}
