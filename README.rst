@@ -19,9 +19,9 @@ Torrentbro
 .. |License| image:: https://img.shields.io/pypi/l/TorrentBro
    :target: https://opensource.org/licenses/GPL-3.0
    :alt: License
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/TorrentBro/latest.svg?label=Read%20the%20Docs
-   :target: https://TorrentBro.readthedocs.io/
-   :alt: Read the documentation at https://TorrentBro.readthedocs.io/
+.. |Read the Docs| image:: https://readthedocs.org/projects/torrentbro/badge/?version=latest
+   :target: https://torrentbro.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
 .. |Tests| image:: https://github.com/vlek/TorrentBro/workflows/Tests/badge.svg
    :target: https://github.com/vlek/TorrentBro/actions?workflow=Tests
    :alt: Tests
@@ -39,13 +39,13 @@ Torrentbro
 Features
 --------
 
-* TODO
+A torrent seeding daemon that seeks out at-risk torrents to provide maximum seeding potential.
 
 
 Requirements
 ------------
 
-* TODO
+A stable internet connection, a configurable amount of available storage, and kindness in your heart.
 
 
 Installation
@@ -55,7 +55,7 @@ You can install *Torrentbro* via pip_ from PyPI_:
 
 .. code:: console
 
-   $ pip install TorrentBro
+   $ pipx install TorrentBro
 
 
 Usage
@@ -87,6 +87,8 @@ please `file an issue`_ along with a detailed description.
 
 Credits
 -------
+
+Project creator: @vlek
 
 This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter`_ template.
 
